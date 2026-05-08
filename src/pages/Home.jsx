@@ -63,12 +63,12 @@ const Home = ({ onNavigate }) => {
             团队秉持"数字引领传承"的理念，专注于煤雕数字化相关成果的研发、展示和销售。借助虚拟现实（VR）和增强现实（AR）技术，为用户带来沉浸式体验，拓展煤雕艺术的市场，为煤雕文化传承与创新开辟新途径。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button onClick={() => onNavigate('products')} className="btn-primary inline-flex items-center justify-center space-x-2">
-              <span>探索产品</span>
+            <button onClick={() => onNavigate('culture')} className="btn-primary inline-flex items-center justify-center space-x-2">
+              <span>深入了解</span>
               <ArrowRight className="w-5 h-5" />
             </button>
             <button onClick={() => onNavigate('about')} className="btn-secondary">
-              了解更多
+              探索产品
             </button>
           </div>
         </div>
